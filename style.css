@@ -1,0 +1,54 @@
+.button{
+    font-family: cursive;
+    color: rgb(61, 0, 77);
+    font-size: 60px;
+    border: 3px solid rgb(255, 121, 255);
+    margin-top: 10%;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+.button_two{
+    font-family: cursive;
+    color: rgb(61, 0, 77);
+    font-size: 60px;
+    border: 3px solid rgb(255, 121, 255);
+    margin-top: 10%;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+header, body{
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+}
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+.button:hover{
+    font-size: 80px;
+    color:rgb(185, 0, 0);
+    border-color: black;
+    background-color: black;
+    box-shadow: 5px 5px 3px grey;
+}
+
+.button_two {
+    transition-duration: 0.4s;
+  }
+  
+.button_two:hover{
+    font-size: 80px;
+    color: rgb(61, 0, 77);
+    border-color:rgb(255, 121, 255);
+    background-color: pink;
+    box-shadow: 5px 5px 3px grey;
+}
